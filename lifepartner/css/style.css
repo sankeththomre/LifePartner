@@ -1,0 +1,44 @@
+#mainmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#mainmenu li {
+    float: left;
+}
+
+#mainmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#mainmenu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#mainmenu .active {
+    background-color: #4CAF50;
+}
+
+#form #login{
+	float:left;
+	width:50%;
+}
+
+#form #signup{
+	float:right;
+	width:50%;
+}
+
+#footer{
+	width:100%;
+	height:40px;
+	background:black;
+	
+}
